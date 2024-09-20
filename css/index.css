@@ -1,0 +1,38 @@
+body {
+  background-color: #FAF3E0; /* 米白色 */
+  color: #333333; /* 深灰色 */
+}
+.navbar {
+  background-color: #F57F20; /* 狐狸橙 */
+}
+.navbar a {
+  color: #000000; /* 白色 */
+}
+.card {
+  border: none;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-title {
+  color: #D32F2F; /* 火焰红 */
+}
+.btn-primary {
+  background-color: #FFC107; /* 金黄 */
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #FFA000; /* 深金黄 */
+}
+.category-btn {
+  background-color: #6D4C41; /* 棕褐色 */
+  color: #FFFFFF; /* 白色 */
+  border: none;
+  margin-bottom: 10px;
+}
+.category-btn:hover {
+  background-color: #4E3B30; /* 深棕色 */
+}
